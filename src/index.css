@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #17140F;
+  --color-sand: #EAE2D6;
+  --color-rise: #B3AA9E;
+  --color-alternative: #221E19;
+  --color-charcoal: #1F1B18;
+  --color-stone: #6B635A;
+  --color-terracotta: #B5623F;
+  --color-border-light: rgba(241,235,226, 0.18);
+  --font-display: "Cormorant Garamond Variable", serif;
+  --font-sans: "DM Sans Variable", sans-serif;
+  
+}
+
+body{
+  background: var(--color-ivory);
+  color: #fff;
+}
